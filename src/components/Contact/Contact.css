@@ -1,0 +1,10 @@
+.icons-container{
+    display: flex;
+    justify-content: center;
+}
+
+.icons{
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+}

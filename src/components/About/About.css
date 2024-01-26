@@ -1,0 +1,69 @@
+.container{
+    padding: 40px;
+    
+}
+
+.top{
+    display: flex;
+    justify-content: space-between;
+}
+.home{
+    padding-left: 60px;
+}
+.project{
+    margin-left: 0;}
+.contact{
+    margin-left: 0px;
+}
+
+.heading{
+    width: 45%;
+    text-align: left;
+    margin-left: 20px;
+}
+ .name{
+    font-size: 70px;
+ }
+
+.img-container{
+    background-image: url('https://fincity-assignment.vercel.app/_next/image?url=%2Fbanner-img.png&w=750&q=75');
+    background-size: cover;
+    height: 80vh;
+    width: 40%;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+.list-container{
+    display: flex;
+    list-style-type: none;
+}
+.nav-margin{
+    margin-right: 50px;
+}
+.contact{
+    margin-right: 100px;
+}
+
+.projects-button{
+    height: 30px;
+    margin-right: 15px;
+    background-color: gold;
+    border-radius: 5px;
+    color: black;
+    font-style: "Roboto";
+    border-color: none;
+    border-width: 0;
+    
+}
+.linkedin-button{
+    height: 30px;
+    
+    background-color: none;
+    border-radius: 5px;
+    color: black;
+    font-style: "Roboto";
+    border-color: black;
+    border-width: 1px;
+    
+}
