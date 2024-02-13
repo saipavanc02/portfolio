@@ -1,69 +1,73 @@
-.container{
-    padding: 40px;
-    
-}
-
-.top{
+.container {
+    padding: 20px;
+  }
+  
+  .top {
     display: flex;
-    justify-content: space-between;
-}
-.home{
-    padding-left: 60px;
-}
-.project{
-    margin-left: 0;}
-.contact{
-    margin-left: 0px;
-}
-
-.heading{
-    width: 45%;
-    text-align: left;
-    margin-left: 20px;
-}
- .name{
-    font-size: 70px;
- }
-
-.img-container{
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .heading {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .img-container {
     background-image: url('https://fincity-assignment.vercel.app/_next/image?url=%2Fbanner-img.png&w=750&q=75');
     background-size: cover;
-    height: 80vh;
-    width: 40%;
+    height: 50vh;
+    width: 100%;
     display: flex;
     justify-content: flex-end;
-    
-}
-.list-container{
+  }
+  
+  .list-container {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     list-style-type: none;
-}
-.nav-margin{
-    margin-right: 50px;
-}
-.contact{
-    margin-right: 100px;
-}
-
-.projects-button{
+    margin-top: 20px;
+  }
+  
+  .nav-margin {
+    margin: 0 20px 20px 20px;
+  }
+  
+  .projects-button,
+  .linkedin-button {
     height: 30px;
-    margin-right: 15px;
+    margin: 0 10px;
+    padding: 0 10px;
     background-color: gold;
     border-radius: 5px;
     color: black;
     font-style: "Roboto";
-    border-color: none;
-    border-width: 0;
-    
-}
-.linkedin-button{
-    height: 30px;
-    
-    background-color: none;
-    border-radius: 5px;
-    color: black;
-    font-style: "Roboto";
-    border-color: black;
-    border-width: 1px;
-    
-}
+    border: none;
+    cursor: pointer;
+  }
+  
+  
+  @media screen and (min-width: 768px) {
+    .top {
+      flex-direction: row;
+      justify-content: space-between;
+      text-align: left;
+    }
+  
+    .heading {
+      width: 45%;
+      text-align: left;
+      margin-left: 20px;
+      margin-bottom: 0;
+    }
+  
+    .img-container {
+      height: 80vh;
+      width: 40%;
+    }
+  }
+  
+  
+  
